@@ -1,0 +1,274 @@
+/* CSS Document */
+body{
+font:15px Arial, Helvetica, sans-serif;
+line-height:1.5;
+margin:0;
+padding:0;
+background-color:#f4f4f4;
+}
+
+/*```````````` Global `````````````````*/
+.container{
+width:80%;
+margin:auto;
+overflow:hidden;
+}
+.button_1{
+padding-left:20px;
+padding-right:20px;
+font-size:16px;
+background-color:#e8491d;
+color:#FFFFFF;
+height:36px;
+border:0;
+font-weight:bold;
+cursor:pointer;
+}
+ul
+{
+margin:0;
+padding:0;
+}
+.dark{
+padding:15px;
+background-color:#35424a;
+color:#FFFFFF;
+margin-top:10px;
+margin-bottom:10px;
+}
+
+.page-title{
+font-size:30px;
+}
+
+/*````````````` Global```````````````````` */
+
+
+/*  Header  */
+header{
+background:#35424a;
+color:#FFFFFF;
+padding-top:20px;
+min-height:80px;
+border-bottom:#e8491d 3px solid;
+}
+header .highlight{
+color:#FF0000;
+}
+
+header a{
+text-decoration:none;
+font-size:16px;
+color:#FFFFFF;
+text-transform:uppercase;
+font-weight:bold;
+}
+
+header li{
+display:inline;
+padding:0 20px;
+float:left;
+
+}
+header #branding{
+float:left;
+}
+header #branding h1{
+margin:0;
+}
+
+header nav{
+float:right;
+margin-top:13px;
+}
+header .active{
+color:#FF0000;
+font-weight:bold;
+}
+
+a:hover:not(.active) {
+color:#00FFFF;
+transition:1s;
+
+}
+
+/*  Header  */
+
+
+/*  Showcase  */
+
+#showcase{
+min-height:400px;
+text-align:center;
+background:url(../image/img1.jpg) no-repeat 0 -370px;
+color:#FFFFFF;
+}
+
+#showcase h1{
+font-size:55px;
+margin-top:100px;
+margin-bottom:10px;
+}
+
+#showcase p{
+font-size:20px;
+font-weight:bold;
+}
+
+/*  Showcase  */
+
+
+/*  Newsletter  */
+
+#newsletter{
+background-color:#35424a;
+padding:16px;
+color:#FFFFFF;
+}
+#newsletter h1{
+float:left;
+}
+#newsletter form{
+float:right;
+margin-top:17px;
+}
+#newsletter input[type="email"]{
+padding:4px;
+height:25px;
+width:250px;
+font-size:17px;
+}
+
+/*  Newsletter  */
+
+
+/*  boxes  */
+
+#boxes{
+margin-top:15px;
+}
+
+#boxes .box{
+float:left;
+width:33.33%;
+text-align:center;
+padding:25px;
+box-sizing:border-box;
+}
+
+/*  boxes  */
+
+
+/*  Section Article  aside  */
+
+section#main{
+padding-top:30px;
+padding-bottom:23px;
+}
+
+article#main-col{
+width:65%;
+float:left;
+text-align:justify;
+}
+aside#side-bar{
+float:right;
+width:30%;
+margin-top:50px;
+text-align:justify;
+}
+
+aside#side-bar .quote input, aside#side-bar .quote textarea{
+width:90%;
+padding:5px;
+}
+
+/*  Section Article  aside  */
+
+/*  Services  */
+
+ul#services li{
+background-color:#e6e6e6;
+border:#CCCCCC solid 1px;
+padding:20px;
+margin-bottom:10px;
+
+
+}
+
+/*  Services  */
+
+
+
+
+
+
+/*  Footer  */
+
+footer{
+background-color:#e8491d;
+color:#FFFFFF;
+padding:15px;
+font-size:19px;
+text-align:center;
+margin-top:20px;
+}
+
+/*  Footer  */
+
+
+
+/* `````````` Media Queries````````````  */
+
+@media(max-width:768px){
+
+header #branding, header nav, header nav li{
+width:100%;
+text-align:center;
+float:none;
+}
+header{
+padding-bottom:20px;
+}
+
+#showcase h1{
+margin-top:80px;
+font-size:40px;
+}
+section#newsletter h1, section#newsletter form, section#newsletter form input[type="email"], section#newsletter form button, section#main form.quote button{
+width:100%;
+text-align:center;
+margin-top:0px;
+margin-bottom:5px;
+}
+#boxes .box{
+float:none;
+width:100%;
+padding:20px;
+}
+
+section article#main-col, section aside#side-bar, section article#main-col h1{
+float:none;
+width:100%;
+padding:0px;
+margin-top:2px;
+margin-bottom:15px;
+
+}
+aside#side-bar{
+text-align:center;
+width:100%;
+float:none;
+}
+section#main form.quote input[type="email"], section#main form.quote input[type="text"], section#main form.quote textarea, section#main form.quote label{
+width:97%;
+margin-top:4px;
+margin-bottom:4px;
+float:none;
+padding-left:10px;
+font-size:18px;
+}
+}
+
+
+/* `````````` Media Queries````````````  */
